@@ -1,0 +1,9 @@
+to set up:
+ npm install ganache-cli
+ cd node_modules/ganache-cli
+ npm install ganache-core
+ replace /ganache-cli/node_modules/ganache-core/node_modules/ethereumjs-vm dir file echo "module.exports=require('/PATH/TO/ethereumjs-vm/index.js');" > ethereum-vm.js
+
+to run:
+ cd ganache-cli
+ node cli.js
